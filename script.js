@@ -41,14 +41,39 @@
 //     index++;
 // }
 
-let repetir = true;
-let index = 0
-while(repetir){
-    let estado = prompt('¿Desea repetir el código?: \n1 - SI\n2 - NO');
-    if(estado == "2"){
-        repetir = false;
+// let repetir = true;
+// let index = 0
+// while(repetir){
+//     let estado = prompt('¿Desea repetir el código?: \n1 - SI\n2 - NO');
+//     if(estado == "2"){
+//         repetir = false;
+//     }
+//     console.log("Estado de ciclo : " + repetir)
+//     index++
+// }
+// console.log(index)
+
+
+// let repetir = true;
+// let index = 0;
+// do{
+//     let estado = prompt('¿Desea repetir el código? : \n1 - SI \n2 - NO');
+//     if(estado == "2"){
+//         repetir = false;
+//     }
+//     console.log("Estado de ciclo: " + repetir);
+//     index++;
+// }while (repetir);
+
+
+let usuario = prompt('Ingrese su usuario: ')
+let contraseña = prompt('Ingrese su contraseña : ')
+if(usuario == '123456' && contraseña == 123456){
+    console.log('Inicio de sesión correcta '); 
+    let opcion = prompt(
+        "Seleccione: \n1 - calcular costo de envio\n2 - calcular factura total "
+    );
+    switch(opcion){
+        
     }
-    console.log("Estado de ciclo : " + repetir)
-    index++
 }
-console.log(index)
