@@ -1,0 +1,13 @@
+ciclos - estructuras de repetición - loops
+
+- Linea o bloque de código que se va a repetir n cantidad de veces, donde n puede ser cualquier número y podrá ser conocido o no por el usuario.
+
+- Son estructuras que se repiten bajó una condición booleana
+
+* Ciclo para -> for  
+* Ciclo mientras -> while 
+* Ciclo repita -> do-while 
+
+Ciclo para (for)
+- Se aplica solo cuando se sabe la cantidad de veces a repetir 
+- Esta definido por un inicio de variable, una condición y un incremento 
