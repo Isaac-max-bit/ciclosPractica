@@ -16,9 +16,20 @@ Ciclo para (for)
 Ciclo mientras (while)
 - se aplica cuando se sabe y no se se sabe la cantidad de veces a repetir
 - Por defecto es un ciclo infinito 
+- Siempre se ejecuta si el valor booleando es verdadero 
+- se puede migrar a un ciclo do-while
 - Esta definido por un inicio de variable, una condición y un incremento 
     nota: antes de ejecutar el código asegurese de tener el incremento definido
 
 Ciclo mientras (while -> centinela o bandera)
 - El centinela o bandera es una condición aplicada a la acción 
 - El centinela o bandera modifica el  valor booleando directamente
+- Siempre se ejecuta si el valor booleando es verdadero 
+- se puede migrar a un ciclo do-while
+
+
+Ciclo repita (do-while)
+- Se aplica solo cuando se sabe la cantidad de veces a repetir 
+- Por defecto es un ciclo infinito 
+- Se ejecuta si el valor booleado es verdadero 
+- Siempre garantiza la ejecución del código minimo una vez

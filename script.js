@@ -42,10 +42,13 @@
 // }
 
 let repetir = true;
+let index = 0
 while(repetir){
     let estado = prompt('¿Desea repetir el código?: \n1 - SI\n2 - NO');
     if(estado == "2"){
         repetir = false;
     }
     console.log("Estado de ciclo : " + repetir)
+    index++
 }
+console.log(index)
